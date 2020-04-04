@@ -8,7 +8,7 @@ end
 
 def match(n)
   words_received = []
-  words.each_line do |line|
+  word.each_line do |line|
     if (line.length - 1) == n.length
       words_received << line.gsub("\n","")
     end
