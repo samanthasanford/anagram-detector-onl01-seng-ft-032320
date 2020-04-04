@@ -6,7 +6,7 @@ class Anagram
   end
 
   def match(array) #iterate over the array of words this method takes as an argument
-    %w(array)
+    new_array = %w(array)
   end
 
 end # close class
