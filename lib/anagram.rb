@@ -6,7 +6,8 @@ def initialize(words)
 end
 
 def match(words)
-  @words= %w(words)
+  @words= array
+  
 
 end
 
