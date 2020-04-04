@@ -6,7 +6,8 @@ def initialize(words)
 end
 
 def self.match(array)
-  array = (%w(@words))
+  self.match = (%w(array))
+
 end
 
 end # close class
