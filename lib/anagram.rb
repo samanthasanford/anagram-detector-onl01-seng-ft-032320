@@ -6,8 +6,8 @@ def intialize(word)
   @word = word
 end
 
-def match(words)
-  words.select do |i|
+def match(array)
+  array.select do |i|
     (@word.split("").sort) == (i.split("").sort)
   end
 end
