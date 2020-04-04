@@ -6,7 +6,7 @@ class Anagram
   end
 
   def match(array) #iterate over the array of words this method takes as an argument
-    array.split("").sort == array.split("").sort
+    %w(array)
   end
 
 end # close class
