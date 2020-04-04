@@ -5,7 +5,7 @@ def initialize(words)
   @words = words
 end
 
-def match(array)
+def self.match(array)
   array = (%w(@words))
 end
 
