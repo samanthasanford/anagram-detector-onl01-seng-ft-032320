@@ -6,7 +6,7 @@ def initialize(words)
 end
 
 def match(words)
-  @words= (%w(words))
+  @words= %w(words)
 
 end
 
